@@ -40,7 +40,7 @@ class Banner extends Component {
 
                 </div>
                 <div className="banner-deco-3-dots">
-                    &#9679;&#9679;&#9679;
+                    &#9679; &#9679; &#9679;
                 </div>
             </header>
         )
