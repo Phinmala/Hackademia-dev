@@ -1,9 +1,9 @@
 # How I created the Node.js server and React app and everything
 
 1. Run these commands in cmd in the directory you want this React app:
-    > `npm install -g node-gyp`
-    > `node-gyp configure`
-    > `node-gyp build`
+    - `npm install -g node-gyp`
+    - `node-gyp configure`
+    - `node-gyp build`
 2. One of the previous two commands will fail though, so you have to create the binding.gyp file, as seen
 in this directory, and the src/binding.cc file. The current binding.gyp file is basically a blank
 template. After creating these two files, run the commands again. I followed these directions from [here](https://github.com/nodejs/node-gyp?tab=readme-ov-file#on-window).
