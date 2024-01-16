@@ -1,0 +1,85 @@
+.banner-deco-3-dots {
+	/* width: 39px;
+	height: 39px; */
+	position: fixed;
+	margin-top: 112px;
+	margin-left: 8px;
+	color: #ECE6B6;
+}
+.banner-edges-yellow-rectangle {
+	position: fixed;
+	width: 1032px;
+	height: 120px;
+	padding: 8px 8px 8px 8px;
+	background: #ECE6B6;
+	border-color: #ECE6B6;
+	border-width: 1px;
+	border-style: solid;
+}
+.banner-grey-rectangle {
+	position: fixed;
+	margin-left: 4px;
+	margin-top: 4px;
+	width: 1024px;
+	height: 112px;
+	padding: 8px 8px 8px 8px;
+	background: #3A3726;
+}
+.banner-middle-line {
+	position: fixed;
+	margin-top: 22px; 
+	width: 1032px;
+	height: 4px;
+	/* padding: 8px 8px 8px 8px; */
+	background: #ECE6B6;
+	border-color: #ECE6B6;
+	border-width: 1px;
+	border-style: solid;
+}
+.hackademia-title {
+	position: fixed; 
+	margin-left: 82px;
+	margin-top: 33px; 
+	/* width: 360px;
+	height: 67px; */
+	color: #F572AA;
+	font-family: "Zen Dots";    /* ZenDots-Regular */
+	font-weight: 400;
+	font-size: 48px;
+	text-align: left;
+}
+.memory-icon {
+	position: fixed; 
+	margin-left: 16px;
+	margin-top: 42px;
+	width: 50px;
+	height: 50px;
+	border-radius: 45%;
+	background: #F572AA;
+}
+.banner-deco-line {
+	width: 130.9999741911888px;
+	height: 1px;
+	border-color: #ECE6B6;
+	border-width: 2px;
+	border-style: solid;
+}
+.discover-learn-defend {
+	position: fixed; 
+	margin-left: 910px;
+	width: 105px;
+	height: 96px;
+	color: #7EC8D3;
+	font-family: "Source Code Pro"; 	/* Source Code Pro */
+	font-weight: 400;
+	font-size: 16px;
+	text-align: right;
+}
+.banner-deco-circle {
+	width: 10px;
+	height: 10px;
+	background: #FFFFFF00;
+	border-color: #ECE6B6;
+	border-width: 2px;
+	border-style: solid;
+}
