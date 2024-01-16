@@ -12,8 +12,7 @@ template. After creating these two files, run the commands again. I followed the
 following [this](https://github.com/facebook/create-react-app) link. I used the command `npm uninstall -g create-react-app` to uninstall, then `npm install -g create-react-app`
 to reinstall. The "-g" flag means global, so it installs for your whole computer and not just this specific
 directory.
-
-Run `npm install` in the react-app (frontend-dev here) folder to install the node_modules from the
+5. Run `npm install` in the react-app (frontend-dev here) folder to install the node_modules from the
 package.json file dependencies (without having to create a whole new app, since most of the app is here).
 
 Now you should be able to run `npm start` and see the website load in your browser!
