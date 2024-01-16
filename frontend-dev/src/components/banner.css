@@ -32,6 +32,7 @@
 	position: fixed; 
 	margin-left: 82px;
 	margin-top: 33px; 
+	/* left: 82px;  */
 	/* width: 360px;
 	height: 67px; */
 	color: #F572AA;
@@ -42,7 +43,7 @@
 }
 .memory-icon {
 	position: fixed; 
-	margin-left: 16px;
+	margin-left: 20px;
 	margin-top: 42px;
 	width: 50px;
 	height: 50px;
@@ -52,8 +53,8 @@
 .banner-deco-line {
 	position: fixed; 
 	margin-top: 12.5px;
-	margin-left: 812px;
-	width: 200px;
+	margin-left: 834px;
+	width: 180px;
 	height: 0px;
 	border-color: #ECE6B6;
 	border-width: 1px;

@@ -1,0 +1,35 @@
+.subtitle-bottom-line {
+    /* position: absolute;  */
+	width: 918px;
+	height: 0px;
+	border-color: #ECE6B6;
+	border-width: 1.5px;
+	border-style: solid;
+    margin-top: 8px; 
+    /* margin-left: -10px; */
+}
+.rectangle-page-foreground {
+    position: static; 
+	width: 920px;
+	height: 1200px;
+	/* padding: 8px 8px 8px 8px; */
+	background: #322d1a; 
+	border-color: #ECE6B6;
+	border-width: 2px;
+	border-style: solid;
+    margin-left: 56px;
+    /* margin-top: 152px;   */
+    /* margin: auto; */
+}
+.subtitle {
+    /* position: absolute;  */
+    margin-top: 162px;
+    margin-left: 24px; 
+	/* width: 219px; */
+	height: 42px;
+	color: #F572AA;
+	font-family: "Zen Dots";
+	font-weight: 400;
+	font-size: 30px;
+	text-align: left;
+}

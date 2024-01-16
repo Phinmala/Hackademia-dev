@@ -5,13 +5,16 @@ import "./App.css";
 // import "./styles.css";
 
 import Banner from "./components/banner.component";
-// import "./components/banner.css"
+import Navbar from "./components/navbar.component";
+import Pageframe from "./components/pageframe.component";
 
 class App extends Component {
     render() {
         return (
             <div>
                 <Banner/>
+                <Navbar/>
+                <Pageframe/>
 
                 {/* <div className="container mt-3">
                     <Routes>
