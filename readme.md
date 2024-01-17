@@ -16,3 +16,7 @@ directory.
 package.json file dependencies (without having to create a whole new app, since most of the app is here).
 
 Now you should be able to run `npm start` and see the website load in your browser!
+
+**ALSO**, I wrote a .bat file that theoretically at least will do all of this for you, but if you run into that
+Visual C++ Build Tools version issue then you'll have to do it manually, command by command. Which still
+isn't too bad.
