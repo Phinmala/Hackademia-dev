@@ -12,5 +12,34 @@
 	font-weight: 400;
 	font-size: 16px;
 	text-align: center;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+	list-style-type: none;
+	display: flex; 
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: center;
+}
+
+a:link {
+	color: #ECE6B6;
+	text-decoration: none;
+	/* float: right; */
+}
+
+li {
+	height: 36px;
+	flex-basis: 150px;
+	padding-top: 6.5px;
+	/* float: right; */
+	/* align-content: center; */
+	/* justify-content: center; */
+}
+
+li:hover {
+	background-color: #638EB1;
+}
+
+.rightbar {
+	float: right;
+	/* justify-self: right; */
 }

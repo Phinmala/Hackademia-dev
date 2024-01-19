@@ -12,8 +12,10 @@ class App extends Component {
     render() {
         return (
             <div>
-                <Banner/>
-                <Navbar/>
+                <div>
+                    <Banner/>
+                    <Navbar/>
+                </div>
                 <Pageframe/>
 
                 {/* <div className="container mt-3">
