@@ -1,9 +1,11 @@
-npm install -g node-gyp
-echo {\n"targets": [\n{\n"target_name": "binding",\n"sources": [ "src/binding.cc" ]\n}\n]\n} > binding.gyp
-cd . > src/binding.cc
-node-gyp configure
-node-gyp build
-npm uninstall -g create-react-app
-npm install -g create-react-app
-npm install
-echo Run command "npm start" to view the web app! Yay!
+CALL npm install -g node-gyp
+CALL echo {"targets": [{"target_name": "binding","sources": [ "src/binding.cc" ]}]} > binding.gyp
+CALL cd . > src/binding.cc
+CALL node-gyp configure
+CALL node-gyp build
+CALL npm uninstall -g create-react-app
+CALL npm install -g create-react-app
+CALL cd frontend-dev
+CALL npm install
+CALL echo.
+CALL echo Run command "npm start" to view the web app! Yay!
