@@ -17,6 +17,7 @@
 	display: flex; 
 	flex-direction: row;
 	justify-content: flex-start;
+	/* align-items: stretch; */
 	align-content: center;
 }
 
@@ -24,6 +25,11 @@ a:link {
 	color: #ECE6B6;
 	text-decoration: none;
 	/* float: right; */
+}
+
+a:visited {
+	color: #ECE6B6;
+	text-decoration: none;
 }
 
 li {
@@ -39,7 +45,11 @@ li:hover {
 	background-color: #638EB1;
 }
 
-.rightbar {
-	float: right;
-	/* justify-self: right; */
+.filler:hover {
+	background-color: #1E5275;
+}
+
+.filler {
+	/* flex-basis: 560px;  */
+	flex-grow: 1;
 }
