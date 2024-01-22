@@ -1,13 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import Header from "./components/header.component";
+import DashboardPage from './pages/dashboard.page';
+
+
+const router = createBrowserRouter([
+  {
+      path: "/",            // the root 
+      element: <Header/>,
+      children: [
+        {
+          path: "dashboard",
+          element: <DashboardPage/>,
+        },
+      ],
+  }
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

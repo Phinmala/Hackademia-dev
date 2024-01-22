@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 // import { Routes, Route, Link } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 // import "./styles.css";
 
-import Banner from "./components/banner.component";
-import Navbar from "./components/navbar.component";
+// import Banner from "./components/banner.component";
+// import Navbar from "./components/navbar.component";
 // import Pageframe from "./components/pageframe.component";
+import Header from "./components/header.component";
 import DashboardPage from "./pages/dashboard.page";
 
 class App extends Component {
@@ -14,8 +16,7 @@ class App extends Component {
         return (
             <div>
                 <div>
-                    <Banner/>
-                    <Navbar/>
+                    <Header/>
                 </div>
                 <DashboardPage/>
 
