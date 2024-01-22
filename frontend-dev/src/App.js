@@ -6,7 +6,8 @@ import "./App.css";
 
 import Banner from "./components/banner.component";
 import Navbar from "./components/navbar.component";
-import Pageframe from "./components/pageframe.component";
+// import Pageframe from "./components/pageframe.component";
+import DashboardPage from "./pages/dashboard.page";
 
 class App extends Component {
     render() {
@@ -16,7 +17,7 @@ class App extends Component {
                     <Banner/>
                     <Navbar/>
                 </div>
-                <Pageframe/>
+                <DashboardPage/>
 
                 {/* <div className="container mt-3">
                     <Routes>
