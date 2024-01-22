@@ -3,6 +3,8 @@ import { Routes, Route, Link } from "react-router-dom";
 import "./navbar.css"
 
 import DashboardPage from "../pages/dashboard.page";
+import SettingsPage from "../pages/settings.page";
+import ProfilePage from "../pages/profile.page";
 
 class Navbar extends Component {
     render() {
@@ -18,8 +20,8 @@ class Navbar extends Component {
                 <div className="container-Router">
                     <Routes>
                         <Route path="/dashboard" element={<DashboardPage/>} />
-                        {/* <Route path="/settings" element={<SettingsPage/>} />
-                        <Route path="/profile" element={<ProfilePage/>} /> */}
+                        <Route path="/settings" element={<SettingsPage/>} />
+                        <Route path="/profile" element={<ProfilePage/>} />
                     </Routes> 
                 </div>
             </div>

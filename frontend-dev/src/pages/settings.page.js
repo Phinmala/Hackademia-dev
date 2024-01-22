@@ -4,18 +4,18 @@ import React, { Component } from "react";
 import "../components/pageframe.css"
 import "./page.css"
 
-class DashboardPage extends Component {
+class SettingsPage extends Component {
     render() {
         return (
             <header className="pageframe">
                 <div className="rectangle-page-foreground">
                     <div className="subtitle">
-                        My Modules
+                        Settings
                     </div>
                     <div className="subtitle-bottom-line"></div>
 
                     <div className="module-tile-1">
-                        Module 1
+                        Many options! Wow! Maybe a gear for good measure, too.
                     </div>
                 </div>                
             </header>
@@ -23,4 +23,4 @@ class DashboardPage extends Component {
     }
 }
 
-export default DashboardPage; 
+export default SettingsPage;

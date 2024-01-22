@@ -8,6 +8,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Header from "./components/header.component";
 import DashboardPage from './pages/dashboard.page';
+import SettingsPage from "./pages/settings.page";
+import ProfilePage from "./pages/profile.page";
 
 
 const router = createBrowserRouter([
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
         {
           path: "dashboard",
           element: <DashboardPage/>,
+        },
+        {
+          path: "settings", 
+          element: <SettingsPage/>,
+        },
+        {
+          path: "profile", 
+          element: <ProfilePage/>,
         },
       ],
   }
