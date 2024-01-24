@@ -10,6 +10,7 @@ import Header from "./components/header.component";
 import DashboardPage from './pages/dashboard.page';
 import SettingsPage from "./pages/settings.page";
 import ProfilePage from "./pages/profile.page";
+import ModuleOne from './pages/module-one.page';
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
         {
           path: "profile", 
           element: <ProfilePage/>,
+        },
+        {
+          path: "module-one", 
+          element: <ModuleOne/>,
         },
       ],
   }

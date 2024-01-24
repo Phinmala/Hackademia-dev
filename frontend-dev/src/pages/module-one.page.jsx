@@ -3,26 +3,23 @@ import React, { Component } from "react";
 // import Pageframe from "../components/pageframe.component";
 import "../components/pageframe.css"
 import "./page.css"
-import ModuleList from "../components/modulelist.component";
+import BufferOverflow from "../components/buffer.overflow.component";
 
-class DashboardPage extends Component {
+class ModuleOne extends Component {
     render() {
         return (
             <header className="pageframe">
                 <div className="rectangle-page-foreground">
                     <div className="subtitle">
-                        My Modules
+                        Buffer Overflow
                     </div>
                     <div className="subtitle-bottom-line"></div>
-                    <ModuleList/>
-
-                    {/* <div className="module-tile-1">
-                        Module 1
-                    </div> */}
+                    <BufferOverflow/> 
+                    
                 </div>                
             </header>
         )
     }
 }
 
-export default DashboardPage; 
+export default ModuleOne; 
